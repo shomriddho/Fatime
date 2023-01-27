@@ -1,0 +1,35 @@
+---
+import Nav from "../components/nav.astro";
+import Sound from "../components/sound.astro";
+import HAE from "../components/HAE.astro";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমার গান</title>
+</head>
+<body>
+  
+  <Nav/>  
+  <HAE/>
+  <div class="w-full bg-white rounded-lg shadow-lg ">
+    <ul class=" divide-gray-100">
+        
+     
+   <Sound name="মোর হৃদয়ের গোপন বিজন ঘরে  mor hridoyer gopono bijonoশিল্পী-সোহেলী  rabidra sangeet" link="/s1.mp3"/>
+  <Sound name="new song 2020 Sohelys ke prothom কে প্রথম new song bangla new song" link="/s2.mp3"/>
+    </ul>
+    
+</div>
+
+  <div class="flex space-x-2 justify-center">
+    <a href="/">
+    <button  class=" px-12 py-2.5 bg-blue-600 text-white font-medium text-5xl leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out my-12">Back</button>
+   </a>  
+  </div>
+  
+</body>
+</html>

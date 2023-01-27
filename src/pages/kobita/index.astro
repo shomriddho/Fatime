@@ -1,0 +1,44 @@
+---
+import Nav from "../../components/nav.astro";
+import HAE from "../../components/HAE.astro";
+import Block from "../../components/block.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>আমার কবিতা</title>
+  </head>
+  <body>
+    <Nav />
+    <HAE />
+    <div>
+      <Block
+        title="চোখ"
+        subtitel="ফিরিয়ে নিয়েছে এই চোখ পলকের থরে থরে "
+        date="১৭/৯/২২"
+        time="রাত ৮.১৫"
+        link="kobita/Eyes"
+      />
+
+      <Block
+        title="প্রত্যয়"
+        subtitel="প্রত্যয়; জানতে চেয়েছ, আজও একা আছ?"
+        time=" 5 August"
+        link="kobita/Suffix"
+      />
+    </div>
+
+    <div class="flex space-x-2 justify-center">
+      <a href="/">
+        <button
+          class="px-12 py-2.5 bg-blue-600 text-white font-medium text-5xl leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out my-12"
+          >Back</button
+        >
+      </a>
+    </div>
+  </body>
+</html>
